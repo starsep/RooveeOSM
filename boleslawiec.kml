@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<Placemark>
+  <name>BROM-ROOVEE PARK STASZICA/WRÓBLEWSKIEGO</name>
+  <description>name=BROM-ROOVEE PARK STASZICA/WRÓBLEWSKIEGO
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>15.5623461750713,51.26902589327</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Staszica - Parking</name>
+  <description>name=Staszica - Parking
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>15.563556183046336,51.266787163227015</coordinates>
+  </Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<Placemark>
+  <name>Dworzec PKS</name>
+  <description>name=Dworzec PKS
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>21.572907824651,53.0845920032629</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Nowy Szpital</name>
+  <description>name=Nowy Szpital
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>21.5917869382966,53.0653991043326</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Plaża Miejska</name>
+  <description>name=Plaża Miejska
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>21.56851203561464,53.09115107976692</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Stacja PKP</name>
+  <description>name=Stacja PKP
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>21.6165349433802,53.0567991538817</coordinates>
+  </Point>
+</Placemark>
+</Document>
+</kml>

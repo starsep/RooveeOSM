@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<Placemark>
+  <name>Bobrownicka</name>
+  <description>name=Bobrownicka
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>17.1820711722082,52.8090921234828</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gnieźnieńska - Targowisko</name>
+  <description>name=Gnieźnieńska - Targowisko
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>17.2159421406013,52.7986063980775</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Klasztorna</name>
+  <description>name=Klasztorna
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>17.1949487243373,52.8047388198308</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Leśna</name>
+  <description>name=Leśna
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>17.1779007913561,52.8144004487839</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Letnia - Szkoła</name>
+  <description>name=Letnia - Szkoła
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>17.1909973486235,52.8140254623275</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Nad Nielbą</name>
+  <description>name=Nad Nielbą
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>17.2202658846947,52.8108727670833</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Orzeszkowa/Kraszewskiego</name>
+  <description>name=Orzeszkowa/Kraszewskiego
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>17.2258170048975,52.8224258967396</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Piaskowa</name>
+  <description>name=Piaskowa
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>17.218522464614,52.8021662485488</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Wierzbowa</name>
+  <description>name=Wierzbowa
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>17.1913998599661,52.7991548672033</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Wróblewskiego</name>
+  <description>name=Wróblewskiego
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>17.2305193442583,52.8071446950311</coordinates>
+  </Point>
+</Placemark>
+</Document>
+</kml>

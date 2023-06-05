@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<Placemark>
+  <name>Dębowa</name>
+  <description>name=Dębowa
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>20.732903322328298,52.42189612533626</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>NOSiR</name>
+  <description>name=NOSiR
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>20.72500143737875,52.42565260070241</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Osiedle Młodych - Młodzieżowa</name>
+  <description>name=Osiedle Młodych - Młodzieżowa
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>20.741235999626724,52.41589953443602</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Osiedle Młodych - Okulickiego</name>
+  <description>name=Osiedle Młodych - Okulickiego
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>20.730187931349747,52.41898852119329</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Osiedle Pólko</name>
+  <description>name=Osiedle Pólko
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>20.721439557704798,52.43113411838536</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Stacja Kolejowa Modlin</name>
+  <description>name=Stacja Kolejowa Modlin
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>20.702366153142066,52.44352737749329</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Stacja Kolejowa Nowy Dwór Mazowiecki</name>
+  <description>name=Stacja Kolejowa Nowy Dwór Mazowiecki
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>20.723489547961663,52.42509270247569</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Starostwo Powiatowe</name>
+  <description>name=Starostwo Powiatowe
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>20.719794994794256,52.426855888989614</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Twierdza Modlin Centrum</name>
+  <description>name=Twierdza Modlin Centrum
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>20.66739715551944,52.43635552219813</coordinates>
+  </Point>
+</Placemark>
+</Document>
+</kml>

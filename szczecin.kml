@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<Placemark>
+  <name>10. Plac Rodła - al. Wyzwolenia</name>
+  <description>name=10. Plac Rodła - al. Wyzwolenia
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>14.554211669946913,53.432205471618786</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>205. Mierzyn - Alicji (wirtualna) </name>
+  <description>name=205. Mierzyn - Alicji (wirtualna) 
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>14.460959787413072,53.43235300346474</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>301. Warzymice</name>
+  <description>name=301. Warzymice
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>14.485471099128118,53.390315271748186</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>68. Rondo Sybiraków</name>
+  <description>name=68. Rondo Sybiraków
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>14.549275237435632,53.4458537341679</coordinates>
+  </Point>
+</Placemark>
+</Document>
+</kml>
