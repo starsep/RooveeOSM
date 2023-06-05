@@ -1,2 +1,7 @@
+diskcache
 geojson
 httpx
+jinja2
+overpy
+pyproj
+python-slugify

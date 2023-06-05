@@ -1,52 +1,54 @@
 #!/usr/bin/env python
-import geojson
-import httpx
+import shutil
 from pathlib import Path
 
-from geojson import Feature, Point
+from jinja2 import Environment, PackageLoader
+from slugify import slugify
+
+from roovee_comparator import run
+from roovee_parser import Network, RooveeParser
 
 networks = [
-    ("bikes", "szczecin"),
-    ("brom", "boleslawiec"),
-    ("chromek", "chodziez"),
-    ("czeladz", "czeladz"),
-    ("grom", "gizycko"),
-    ("kielce", "kielce"),
-    ("krotower", "krotoszyn"),
-    ("ndm", "nowy-dwor-mazowiecki"),
-    ("olesnica", "olesnica"),
-    ("ostro", "ostroleka"),
-    ("polkowice", "polkowice"),
-    ("srm", "scinawa"),
-    ("suwalki", "suwalki"),
-    ("swmr", "stalowa-wola"),
-    ("wagrowiec", "wagrowiec"),
-    ("zabrze", "zabrze"),
-    ("zary", "zary"),
+    Network(tenant="bikes", name="Szczecin"),
+    Network(tenant="brom", name="Bolesławiec"),
+    Network(tenant="chromek", name="Chodzież"),
+    Network(tenant="czeladz", name="Czeladź"),
+    Network(tenant="grom", name="Giżycko"),
+    Network(tenant="kielce", name="Kielce"),
+    Network(tenant="krotower", name="Krotoszyn"),
+    Network(tenant="ndm", name="Nowy Dwór Mazowiecki"),
+    Network(tenant="olesnica", name="Oleśnica"),
+    Network(tenant="ostro", name="Ostrołęka"),
+    Network(tenant="polkowice", name="Polkowice"),
+    Network(tenant="srm", name="Ścinawa"),
+    Network(tenant="suwalki", name="Suwałki"),
+    Network(tenant="swmr", name="Stalowa Wola"),
+    Network(tenant="wagrowiec", name="Wągrowiec"),
+    Network(tenant="zabrze", name="Zabrze"),
+    Network(tenant="zary", name="Żary"),
 ]
 
-outputDir = Path("output")
-outputDir.mkdir(exist_ok=True)
+# TODO: GeoJSON output
+if __name__ == "__main__":
+    templatesDirectory = Path("templates")
+    outputDirectory = Path("output")
+    outputDirectory.mkdir(exist_ok=True)
+    rooveeParser = RooveeParser()
+    for network in networks:
+        slug = slugify(network.name)
+        run(
+            network=network,
+            outputPath=outputDirectory / f"{slug}.html",
+            mapPath=outputDirectory / f"map-{slug}.html",
+            rooveeParser=rooveeParser,
+        )
 
-for tenant, network in networks:
-    with (outputDir / f"{network}.geojson").open("w") as output:
-        data = httpx.get(
-            f"https://api.roovee.eu/public/bikesAndZones?latitude=54&longitude=22&longitudeDelta=30&latitudeDelta=30&tenant={tenant}"
-        ).json()
-        features = []
-        for zone in data["zones"]:
-            zoneType = zone["type"]
-            if zoneType == "operationsZone":
-                continue
-            if zoneType != "preferredBikeReturnZone":
-                print(f"Unexpected type = {zoneType}")
-                continue
-            features.append(
-                Feature(
-                    geometry=Point(
-                        (zone["areaCenter"]["lng"], zone["areaCenter"]["lat"])
-                    ),
-                    properties=dict(name=zone["name"]),
-                )
-            )
-        geojson.dump(features, output)
+    environment = Environment(loader=PackageLoader("main", "templates"))
+    template = environment.get_template("index.html")
+    cities = sorted(
+        [(network.name, slugify(network.name)) for network in networks],
+        key=lambda x: x[0],
+    )
+    with (outputDirectory / "index.html").open("w", encoding="utf-8") as f:
+        f.write(template.render(dict(cities=cities)))
+    shutil.copy(templatesDirectory / "index.js", outputDirectory / "index.js")
