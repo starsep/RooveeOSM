@@ -4,7 +4,7 @@ import json
 from dataclasses import dataclass
 from pathlib import Path
 from time import localtime, strftime
-from typing import List, Optional, Tuple
+from typing import List, Optional, Tuple, Dict
 
 from jinja2 import Environment, PackageLoader
 from overpy import Element, Way
@@ -31,9 +31,9 @@ class Match:
 @dataclass
 class MapFeatureTags:
     name: str
-    extraTags: dict[str, str]
+    extraTags: Dict[str, str]
 
-    def _toTagsDict(self) -> dict[str, str]:
+    def _toTagsDict(self) -> Dict[str, str]:
         result = dict(name=self.name)
         result.update(self.extraTags)
         return result
@@ -53,7 +53,7 @@ class MapFeature(GeoPoint):
     tags: MapFeatureTags
 
     @staticmethod
-    def fromMatch(extraTags: dict[str, str]):
+    def fromMatch(extraTags: Dict[str, str]):
         def foo(match: Match) -> MapFeature:
             return MapFeature(
                 lat=match.place.lat,
