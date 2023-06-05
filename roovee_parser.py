@@ -1,4 +1,5 @@
 from dataclasses import dataclass
+from typing import List
 
 import httpx
 
@@ -17,11 +18,11 @@ class Network:
 
 
 class RooveeParser:
-    def downloadNetwork(self, network: Network) -> list[Place]:
+    def downloadNetwork(self, network: Network) -> List[Place]:
         data = httpx.get(
             f"https://api.roovee.eu/public/bikesAndZones?latitude=54&longitude=22&longitudeDelta=30&latitudeDelta=30&tenant={network.tenant}"
         ).json()
-        places: list[Place] = []
+        places: List[Place] = []
         for zone in data["zones"]:
             zoneType = zone["type"]
             if zoneType == "operationsZone":
