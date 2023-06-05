@@ -6,8 +6,23 @@ from pathlib import Path
 from geojson import Feature, Point
 
 networks = [
-    ("suwalki", "suwalki"),
+    ("bikes", "szczecin"),
+    ("brom", "boleslawiec"),
+    ("chromek", "chodziez"),
+    ("czeladz", "czeladz"),
+    ("grom", "gizycko"),
+    ("kielce", "kielce"),
+    ("krotower", "krotoszyn"),
+    ("ndm", "nowy-dwor-mazowiecki"),
+    ("olesnica", "olesnica"),
     ("ostro", "ostroleka"),
+    ("polkowice", "polkowice"),
+    ("srm", "scinawa"),
+    ("suwalki", "suwalki"),
+    ("swmr", "stalowa-wola"),
+    ("wagrowiec", "wagrowiec"),
+    ("zabrze", "zabrze"),
+    ("zary", "zary"),
 ]
 
 outputDir = Path("output")
@@ -26,7 +41,6 @@ for tenant, network in networks:
             if zoneType != "preferredBikeReturnZone":
                 print(f"Unexpected type = {zoneType}")
                 continue
-            print(zone)
             features.append(
                 Feature(
                     geometry=Point(
