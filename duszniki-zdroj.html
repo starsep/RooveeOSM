@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Duszniki-Zdrój - RooveeOSM</title>
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+    
+    <script src="sorttable.js" integrity="sha256-n3657FhpVO0BrpRmnXeQho7yfKvMVBh0QcoYkQr2O8w="></script>
+</head>
+<style>
+    .red {
+        color: red;
+    }
+
+    .svg {
+        width: 20px;
+        height: 20px;
+    }
+</style>
+<body>
+    <i>Updated: Tue, 06 Jun @ 07:29:59</i> <br/>
+    <span>
+        Roovee locations (0) where OpenStreetMap match has distance &gt; 100 metres.
+        <br/>
+        <a href="map-duszniki-zdroj.html">Map</a>
+        <a href="duszniki-zdroj.kml">KML</a>
+        <a href="duszniki-zdroj.csv">CSV in SCEE format</a>
+    </span>
+    <table class="sortable">
+        <thead>
+            <tr>
+                <th>Roovee location</th>
+                <th>OSM id (closest match)</th>
+                <th>Distance (in meters)</th>
+                <th>Name Roovee</th>
+                <th>Name OSM</th>
+                <th>Network</th>
+                <th>Operator</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+            <tr>
+                <td>
+                    <a href="https://osm.org/?mlat=50.4051762107385&mlon=16.3881730133262#map=19/50.4051762107385/16.3881730133262">OSM</a>
+                    <a target="hiddenIframe" href="http://localhost:8111/load_and_zoom?top=50.4051762107385&bottom=50.4051762107385&left=16.3881730133262&right=16.3881730133262">
+                        <img src="./josm.svg" class="svg" alt="josm">
+                    </a>
+                </td>
+                <td>
+                    <a href="https://osm.org/node/9111616209">9111616209</a>
+                    <a target="hiddenIframe" href="http://localhost:8111/load_object?objects=n9111616209">
+                        <img src="./josm.svg" class="svg" alt="josm">
+                    </a>
+                </td>
+                <td > 16.14
+                </td>
+                <td>
+                    MTB
+                </td>
+                <td class="red" >
+                    NONE
+                </td>
+                <td class="red" >
+                    NONE
+                </td>
+                <td >
+                    Miasto Duszniki Zdrój
+                </td>
+            </tr>
+            
+        </tbody>
+    </table>
+    <i>Created using <a href="https://github.com/starsep/RooveeOSM">starsep/RooveeOSM</a></i>
+    <iframe style="display:none;" id="hiddenIframe" name="hiddenIframe"></iframe>
+</body>
+</html>
