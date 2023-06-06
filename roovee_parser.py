@@ -20,7 +20,7 @@ class Network:
 class RooveeParser:
     def downloadNetwork(self, network: Network) -> List[Place]:
         data = httpx.get(
-            f"https://api.roovee.eu/public/bikesAndZones?latitude=54&longitude=22&longitudeDelta=30&latitudeDelta=30&tenant={network.tenant}"
+            f"https://api.roovee.eu/public/bikesAndZones?tenant={network.tenant}"
         ).json()
         places: List[Place] = []
         for zone in data["zones"]:
