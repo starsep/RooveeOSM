@@ -41,5 +41,15 @@ operator:wikidata=Q60860205</description>
     <coordinates>14.549275237435632,53.4458537341679</coordinates>
   </Point>
 </Placemark>
+<Placemark>
+  <name>82. Wernyhory</name>
+  <description>name=82. Wernyhory
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>14.497577096318262,53.44484383956921</coordinates>
+  </Point>
+</Placemark>
 </Document>
 </kml>

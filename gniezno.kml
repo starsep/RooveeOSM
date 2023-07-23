@@ -22,16 +22,6 @@ operator:wikidata=Q60860205</description>
   </Point>
 </Placemark>
 <Placemark>
-  <name>Biskupińska - Gdańska</name>
-  <description>name=Biskupińska - Gdańska
-amenity=bicycle_rental
-operator=Roovee
-operator:wikidata=Q60860205</description>
-  <Point>
-    <coordinates>17.603160730683175,52.548719299022</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
   <name>Budowlanych</name>
   <description>name=Budowlanych
 amenity=bicycle_rental
@@ -142,16 +132,6 @@ operator:wikidata=Q60860205</description>
   </Point>
 </Placemark>
 <Placemark>
-  <name>Leśna</name>
-  <description>name=Leśna
-amenity=bicycle_rental
-operator=Roovee
-operator:wikidata=Q60860205</description>
-  <Point>
-    <coordinates>17.61742710948984,52.511772298037236</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
   <name>Łubieńskiego</name>
   <description>name=Łubieńskiego
 amenity=bicycle_rental
@@ -169,16 +149,6 @@ operator=Roovee
 operator:wikidata=Q60860205</description>
   <Point>
     <coordinates>17.579339847850395,52.51909674224613</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>Orzeszkowej</name>
-  <description>name=Orzeszkowej
-amenity=bicycle_rental
-operator=Roovee
-operator:wikidata=Q60860205</description>
-  <Point>
-    <coordinates>17.571114574834063,52.52957797442653</coordinates>
   </Point>
 </Placemark>
 <Placemark>
@@ -232,16 +202,6 @@ operator:wikidata=Q60860205</description>
   </Point>
 </Placemark>
 <Placemark>
-  <name>Pocztowa</name>
-  <description>name=Pocztowa
-amenity=bicycle_rental
-operator=Roovee
-operator:wikidata=Q60860205</description>
-  <Point>
-    <coordinates>17.602628277243078,52.53011019091253</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
   <name>Powstańców Wlkp</name>
   <description>name=Powstańców Wlkp
 amenity=bicycle_rental
@@ -289,16 +249,6 @@ operator=Roovee
 operator:wikidata=Q60860205</description>
   <Point>
     <coordinates>17.59615535948984,52.535585860633375</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>Słoneczna</name>
-  <description>name=Słoneczna
-amenity=bicycle_rental
-operator=Roovee
-operator:wikidata=Q60860205</description>
-  <Point>
-    <coordinates>17.61904050201166,52.525898925002</coordinates>
   </Point>
 </Placemark>
 <Placemark>
@@ -379,16 +329,6 @@ operator=Roovee
 operator:wikidata=Q60860205</description>
   <Point>
     <coordinates>17.604205774834032,52.511441522707734</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>Wrzesińska - Okulickiego</name>
-  <description>name=Wrzesińska - Okulickiego
-amenity=bicycle_rental
-operator=Roovee
-operator:wikidata=Q60860205</description>
-  <Point>
-    <coordinates>17.595825784898782,52.52067427689828</coordinates>
   </Point>
 </Placemark>
 <Placemark>

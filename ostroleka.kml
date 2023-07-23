@@ -2,6 +2,16 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document>
 <Placemark>
+  <name>Centrum</name>
+  <description>name=Centrum
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>21.58775381704496,53.07493867243961</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
   <name>Dworzec PKS</name>
   <description>name=Dworzec PKS
 amenity=bicycle_rental
@@ -9,6 +19,16 @@ operator=Roovee
 operator:wikidata=Q60860205</description>
   <Point>
     <coordinates>21.572907824651,53.0845920032629</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Kupiec</name>
+  <description>name=Kupiec
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>21.572123901947897,53.08161097049284</coordinates>
   </Point>
 </Placemark>
 <Placemark>
@@ -32,6 +52,16 @@ operator:wikidata=Q60860205</description>
   </Point>
 </Placemark>
 <Placemark>
+  <name>Ratusz</name>
+  <description>name=Ratusz
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>21.567982016242365,53.084376628797955</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
   <name>Stacja PKP</name>
   <description>name=Stacja PKP
 amenity=bicycle_rental
@@ -39,6 +69,16 @@ operator=Roovee
 operator:wikidata=Q60860205</description>
   <Point>
     <coordinates>21.6165349433802,53.0567991538817</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Stary Szpital</name>
+  <description>name=Stary Szpital
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>21.56414082917874,53.07430943834223</coordinates>
   </Point>
 </Placemark>
 </Document>
