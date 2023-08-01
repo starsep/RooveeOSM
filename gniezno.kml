@@ -42,6 +42,16 @@ operator:wikidata=Q60860205</description>
   </Point>
 </Placemark>
 <Placemark>
+  <name>Galeria Gniezno</name>
+  <description>name=Galeria Gniezno
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>17.61129772258609,52.561482101001054</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
   <name>Gdańska</name>
   <description>name=Gdańska
 amenity=bicycle_rental
