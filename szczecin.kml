@@ -62,6 +62,16 @@ operator:wikidata=Q60860205</description>
   </Point>
 </Placemark>
 <Placemark>
+  <name>84. Osiedle za Sterem</name>
+  <description>name=84. Osiedle za Sterem
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>14.487499804121192,53.42896608356123</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
   <name>93. Królewskiego</name>
   <description>name=93. Królewskiego
 amenity=bicycle_rental
