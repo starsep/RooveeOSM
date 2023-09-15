@@ -72,6 +72,26 @@ operator:wikidata=Q60860205</description>
   </Point>
 </Placemark>
 <Placemark>
+  <name>91. Królewskiego - Rostocka</name>
+  <description>name=91. Królewskiego - Rostocka
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>14.556089486742572,53.46274268304283</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>92. Łączna</name>
+  <description>name=92. Łączna
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>14.561466326918747,53.47123360421971</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
   <name>93. Królewskiego</name>
   <description>name=93. Królewskiego
 amenity=bicycle_rental
