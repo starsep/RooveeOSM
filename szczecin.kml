@@ -102,6 +102,16 @@ operator:wikidata=Q60860205</description>
   </Point>
 </Placemark>
 <Placemark>
+  <name>94. Hoża - Bogumińska</name>
+  <description>name=94. Hoża - Bogumińska
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>14.577129896185141,53.46266493765476</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
   <name>95. Hoża Studzienna</name>
   <description>name=95. Hoża Studzienna
 amenity=bicycle_rental
