@@ -12,16 +12,6 @@ operator:wikidata=Q60860205</description>
   </Point>
 </Placemark>
 <Placemark>
-  <name>Oleśnicka Biblioteka Publiczna</name>
-  <description>name=Oleśnicka Biblioteka Publiczna
-amenity=bicycle_rental
-operator=Roovee
-operator:wikidata=Q60860205</description>
-  <Point>
-    <coordinates>17.382012838499577,51.203791772324344</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
   <name>Rynek - Ratusz</name>
   <description>name=Rynek - Ratusz
 amenity=bicycle_rental
