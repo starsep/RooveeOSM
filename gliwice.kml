@@ -12,6 +12,16 @@ operator:wikidata=Q60860205</description>
   </Point>
 </Placemark>
 <Placemark>
+  <name>ul. Dąbrowskiego/Poniatowskiego</name>
+  <description>name=ul. Dąbrowskiego/Poniatowskiego
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>18.693068840854096,50.29745536795446</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
   <name>ul. Jana Pawła II</name>
   <description>name=ul. Jana Pawła II
 amenity=bicycle_rental
