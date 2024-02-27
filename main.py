@@ -40,6 +40,7 @@ networks = [
 # TODO: GeoJSON output
 if __name__ == "__main__":
     templatesDirectory = Path("templates")
+    libsDirectory = Path("libs")
     outputDirectory = Path("output")
     outputDirectory.mkdir(exist_ok=True)
     rooveeParser = RooveeParser()
@@ -61,3 +62,4 @@ if __name__ == "__main__":
     with (outputDirectory / "index.html").open("w", encoding="utf-8") as f:
         f.write(template.render(dict(cities=cities)))
     shutil.copy(templatesDirectory / "index.js", outputDirectory / "index.js")
+    shutil.copy(libsDirectory / "sorttable.js", outputDirectory / "sorttable.js")
