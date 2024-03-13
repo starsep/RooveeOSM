@@ -82,6 +82,16 @@ operator:wikidata=Q60860205</description>
   </Point>
 </Placemark>
 <Placemark>
+  <name>OS.WSCHÓD/11 LISTOPADA</name>
+  <description>name=OS.WSCHÓD/11 LISTOPADA
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>17.230471371830095,52.80838303561162</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
   <name>Piaskowa</name>
   <description>name=Piaskowa
 amenity=bicycle_rental
@@ -99,16 +109,6 @@ operator=Roovee
 operator:wikidata=Q60860205</description>
   <Point>
     <coordinates>17.1913998599661,52.7991548672033</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>Wróblewskiego</name>
-  <description>name=Wróblewskiego
-amenity=bicycle_rental
-operator=Roovee
-operator:wikidata=Q60860205</description>
-  <Point>
-    <coordinates>17.2305193442583,52.8071446950311</coordinates>
   </Point>
 </Placemark>
 </Document>
