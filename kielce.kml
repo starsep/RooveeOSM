@@ -2,6 +2,16 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document>
 <Placemark>
+  <name>Jagiellońska</name>
+  <description>name=Jagiellońska
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>20.616564235970035,50.882887394515556</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
   <name>Kaznowskiego Ślichowice</name>
   <description>name=Kaznowskiego Ślichowice
 amenity=bicycle_rental
@@ -9,6 +19,36 @@ operator=Roovee
 operator:wikidata=Q60860205</description>
   <Point>
     <coordinates>20.57965686328565,50.88543172112043</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Rondo Czwartaków</name>
+  <description>name=Rondo Czwartaków
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>20.650764544197223,50.84523824229824</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Rondo Praw Kobiet</name>
+  <description>name=Rondo Praw Kobiet
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>20.63864763634826,50.90030995437288</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Wietrznia</name>
+  <description>name=Wietrznia
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>20.648442846476467,50.85196712609758</coordinates>
   </Point>
 </Placemark>
 </Document>
