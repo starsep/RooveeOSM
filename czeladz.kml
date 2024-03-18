@@ -1,5 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document>
+<Placemark>
+  <name>Dworcowa</name>
+  <description>name=Dworcowa
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>19.071932195167296,50.320537584492094</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Piaskowa</name>
+  <description>name=Piaskowa
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>19.096676074849427,50.30293734950836</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Termalna</name>
+  <description>name=Termalna
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>19.072518936633788,50.30810166078109</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Wojkowicka</name>
+  <description>name=Wojkowicka
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>19.07062013676745,50.3338322963433</coordinates>
+  </Point>
+</Placemark>
 </Document>
 </kml>
