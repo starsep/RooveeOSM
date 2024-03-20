@@ -2,23 +2,23 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document>
 <Placemark>
-  <name>Jagiellońska</name>
-  <description>name=Jagiellońska
+  <name>Śląska</name>
+  <description>name=Śląska
 amenity=bicycle_rental
 operator=Roovee
 operator:wikidata=Q60860205</description>
   <Point>
-    <coordinates>20.616564235970035,50.882887394515556</coordinates>
+    <coordinates>20.650530676907287,50.870823820492696</coordinates>
   </Point>
 </Placemark>
 <Placemark>
-  <name>Kaznowskiego Ślichowice</name>
-  <description>name=Kaznowskiego Ślichowice
+  <name>Warszawska Uroczysko</name>
+  <description>name=Warszawska Uroczysko
 amenity=bicycle_rental
 operator=Roovee
 operator:wikidata=Q60860205</description>
   <Point>
-    <coordinates>20.57965686328565,50.88543172112043</coordinates>
+    <coordinates>20.6475477435323,50.89064782421248</coordinates>
   </Point>
 </Placemark>
 </Document>
