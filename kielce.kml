@@ -2,16 +2,6 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document>
 <Placemark>
-  <name>Śląska</name>
-  <description>name=Śląska
-amenity=bicycle_rental
-operator=Roovee
-operator:wikidata=Q60860205</description>
-  <Point>
-    <coordinates>20.650530676907287,50.870823820492696</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
   <name>Warszawska Uroczysko</name>
   <description>name=Warszawska Uroczysko
 amenity=bicycle_rental
