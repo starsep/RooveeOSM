@@ -32,6 +32,16 @@ operator:wikidata=Q60860205</description>
   </Point>
 </Placemark>
 <Placemark>
+  <name>Leśna</name>
+  <description>name=Leśna
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>21.5416289222874,53.073260514793816</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
   <name>Nowy Szpital</name>
   <description>name=Nowy Szpital
 amenity=bicycle_rental
