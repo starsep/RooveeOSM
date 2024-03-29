@@ -2,6 +2,16 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document>
 <Placemark>
+  <name>Ludwikowska</name>
+  <description>name=Ludwikowska
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>17.376745873675226,51.19935047637215</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
   <name>OKR-ATOL</name>
   <description>name=OKR-ATOL
 amenity=bicycle_rental
@@ -9,6 +19,16 @@ operator=Roovee
 operator:wikidata=Q60860205</description>
   <Point>
     <coordinates>17.387604430611418,51.21715974790235</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Owocowa</name>
+  <description>name=Owocowa
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>17.374075711644064,51.22242756206785</coordinates>
   </Point>
 </Placemark>
 <Placemark>
