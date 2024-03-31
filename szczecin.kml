@@ -22,6 +22,16 @@ operator:wikidata=Q60860205</description>
   </Point>
 </Placemark>
 <Placemark>
+  <name>301. Warzymice</name>
+  <description>name=301. Warzymice
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>14.485387418102809,53.390250596566275</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
   <name>68. Rondo Sybiraków</name>
   <description>name=68. Rondo Sybiraków
 amenity=bicycle_rental
