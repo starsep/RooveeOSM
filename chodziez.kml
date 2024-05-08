@@ -91,5 +91,15 @@ operator:wikidata=Q60860205</description>
     <coordinates>16.9055736478334,52.9864139126322</coordinates>
   </Point>
 </Placemark>
+<Placemark>
+  <name>Parking Bike &amp; Ride-23</name>
+  <description>name=Parking Bike &amp; Ride-23
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>16.9149911812078,52.9902285762632</coordinates>
+  </Point>
+</Placemark>
 </Document>
 </kml>
