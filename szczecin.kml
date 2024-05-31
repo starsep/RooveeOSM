@@ -42,6 +42,16 @@ operator:wikidata=Q60860205</description>
   </Point>
 </Placemark>
 <Placemark>
+  <name>71. Fabryka Wody</name>
+  <description>name=71. Fabryka Wody
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>14.568333269766098,53.44330696694488</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
   <name>82. Wernyhory</name>
   <description>name=82. Wernyhory
 amenity=bicycle_rental
