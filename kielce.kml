@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document>
+<Placemark>
+  <name>Muzeum Historii Kielc</name>
+  <description>name=Muzeum Historii Kielc
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>20.634590974741748,50.8696864842529</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Ogród Botaniczny </name>
+  <description>name=Ogród Botaniczny 
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>20.598304263615713,50.86792439576787</coordinates>
+  </Point>
+</Placemark>
 </Document>
 </kml>
