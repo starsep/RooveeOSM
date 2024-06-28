@@ -141,5 +141,15 @@ operator:wikidata=Q60860205</description>
     <coordinates>14.579936180745152,53.45997347302548</coordinates>
   </Point>
 </Placemark>
+<Placemark>
+  <name>99. Wirtualna Pomorzany</name>
+  <description>name=99. Wirtualna Pomorzany
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>14.525895315814,53.404748428728375</coordinates>
+  </Point>
+</Placemark>
 </Document>
 </kml>
