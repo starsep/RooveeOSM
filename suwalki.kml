@@ -1,55 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document>
-<Placemark>
-  <name>ul. A. Wierusza-Kowalskiego</name>
-  <description>name=ul. A. Wierusza-Kowalskiego
-amenity=bicycle_rental
-operator=Roovee
-operator:wikidata=Q60860205</description>
-  <Point>
-    <coordinates>22.937476187974237,54.12675723114146</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>ul. Innowacyjna</name>
-  <description>name=ul. Innowacyjna
-amenity=bicycle_rental
-operator=Roovee
-operator:wikidata=Q60860205</description>
-  <Point>
-    <coordinates>22.93876613640271,54.0839956365564</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>ul. Papieża Jana Pawła II</name>
-  <description>name=ul. Papieża Jana Pawła II
-amenity=bicycle_rental
-operator=Roovee
-operator:wikidata=Q60860205</description>
-  <Point>
-    <coordinates>22.937987158967875,54.11282298007391</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>ul. Szpitalna</name>
-  <description>name=ul. Szpitalna
-amenity=bicycle_rental
-operator=Roovee
-operator:wikidata=Q60860205</description>
-  <Point>
-    <coordinates>22.921938953171296,54.12305177493738</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>ul. T. Kościuszki</name>
-  <description>name=ul. T. Kościuszki
-amenity=bicycle_rental
-operator=Roovee
-operator:wikidata=Q60860205</description>
-  <Point>
-    <coordinates>22.9281676402068,54.09865878488342</coordinates>
-  </Point>
-</Placemark>
 </Document>
 </kml>
