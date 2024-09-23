@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document>
-<Placemark>
-  <name>Strefa Relaksu</name>
-  <description>name=Strefa Relaksu
-amenity=bicycle_rental
-operator=Roovee
-operator:wikidata=Q60860205</description>
-  <Point>
-    <coordinates>20.629576399681156,50.87914070495794</coordinates>
-  </Point>
-</Placemark>
 </Document>
 </kml>
