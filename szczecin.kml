@@ -22,16 +22,6 @@ operator:wikidata=Q60860205</description>
   </Point>
 </Placemark>
 <Placemark>
-  <name>303. Warzymice</name>
-  <description>name=303. Warzymice
-amenity=bicycle_rental
-operator=Roovee
-operator:wikidata=Q60860205</description>
-  <Point>
-    <coordinates>14.485975034620413,53.39104637422967</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
   <name>64. Trasa Zamkowa</name>
   <description>name=64. Trasa Zamkowa
 amenity=bicycle_rental
