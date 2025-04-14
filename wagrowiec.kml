@@ -8,7 +8,7 @@ amenity=bicycle_rental
 operator=Roovee
 operator:wikidata=Q60860205</description>
   <Point>
-    <coordinates>17.1820711722082,52.8090921234828</coordinates>
+    <coordinates>17.182071172,52.809092123</coordinates>
   </Point>
 </Placemark>
 <Placemark>
@@ -18,7 +18,7 @@ amenity=bicycle_rental
 operator=Roovee
 operator:wikidata=Q60860205</description>
   <Point>
-    <coordinates>17.1763758264621,52.8099506582</coordinates>
+    <coordinates>17.176375826,52.809950658</coordinates>
   </Point>
 </Placemark>
 <Placemark>
@@ -28,7 +28,17 @@ amenity=bicycle_rental
 operator=Roovee
 operator:wikidata=Q60860205</description>
   <Point>
-    <coordinates>17.2159421406013,52.7986063980775</coordinates>
+    <coordinates>17.215942141,52.798606398</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Jankowo</name>
+  <description>name=Jankowo
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>17.210659313482367,52.79289584402186</coordinates>
   </Point>
 </Placemark>
 <Placemark>
@@ -38,7 +48,17 @@ amenity=bicycle_rental
 operator=Roovee
 operator:wikidata=Q60860205</description>
   <Point>
-    <coordinates>17.1949487243373,52.8047388198308</coordinates>
+    <coordinates>17.194948724,52.80473882</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Łęgowo</name>
+  <description>name=Łęgowo
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>17.172354873842337,52.790759933144514</coordinates>
   </Point>
 </Placemark>
 <Placemark>
@@ -48,7 +68,7 @@ amenity=bicycle_rental
 operator=Roovee
 operator:wikidata=Q60860205</description>
   <Point>
-    <coordinates>17.1779007913561,52.8144004487839</coordinates>
+    <coordinates>17.177900791,52.814400449</coordinates>
   </Point>
 </Placemark>
 <Placemark>
@@ -58,7 +78,7 @@ amenity=bicycle_rental
 operator=Roovee
 operator:wikidata=Q60860205</description>
   <Point>
-    <coordinates>17.1909973486235,52.8140254623275</coordinates>
+    <coordinates>17.190997349,52.814025462</coordinates>
   </Point>
 </Placemark>
 <Placemark>
@@ -68,7 +88,7 @@ amenity=bicycle_rental
 operator=Roovee
 operator:wikidata=Q60860205</description>
   <Point>
-    <coordinates>17.2202658846947,52.8108727670833</coordinates>
+    <coordinates>17.220265885,52.810872767</coordinates>
   </Point>
 </Placemark>
 <Placemark>
@@ -78,7 +98,7 @@ amenity=bicycle_rental
 operator=Roovee
 operator:wikidata=Q60860205</description>
   <Point>
-    <coordinates>17.2258170048975,52.8224258967396</coordinates>
+    <coordinates>17.225817005,52.822425897</coordinates>
   </Point>
 </Placemark>
 <Placemark>
@@ -98,7 +118,7 @@ amenity=bicycle_rental
 operator=Roovee
 operator:wikidata=Q60860205</description>
   <Point>
-    <coordinates>17.218522464614,52.8021662485488</coordinates>
+    <coordinates>17.218522465,52.802166249</coordinates>
   </Point>
 </Placemark>
 <Placemark>
@@ -112,13 +132,23 @@ operator:wikidata=Q60860205</description>
   </Point>
 </Placemark>
 <Placemark>
+  <name>Rogozińska/ Słoneczna</name>
+  <description>name=Rogozińska/ Słoneczna
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>17.1744424862024,52.80481974542843</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
   <name>Wierzbowa</name>
   <description>name=Wierzbowa
 amenity=bicycle_rental
 operator=Roovee
 operator:wikidata=Q60860205</description>
   <Point>
-    <coordinates>17.1913998599661,52.7991548672033</coordinates>
+    <coordinates>17.19139986,52.799154867</coordinates>
   </Point>
 </Placemark>
 </Document>

@@ -11,5 +11,15 @@ operator:wikidata=Q60860205</description>
     <coordinates>17.582526649529022,53.137919127812495</coordinates>
   </Point>
 </Placemark>
+<Placemark>
+  <name>ul. Mickiewicza</name>
+  <description>name=ul. Mickiewicza
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>17.59200610934437,53.139374518949445</coordinates>
+  </Point>
+</Placemark>
 </Document>
 </kml>

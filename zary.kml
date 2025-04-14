@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<Placemark>
+  <name>ŻRM-ROOVEE PARK CENTRUM PRZESIADKOWE</name>
+  <description>name=ŻRM-ROOVEE PARK CENTRUM PRZESIADKOWE
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>15.13689274,51.637849559</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>ŻRM-ROOVEE PARK KĄPIELISKO</name>
+  <description>name=ŻRM-ROOVEE PARK KĄPIELISKO
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>15.134444832,51.617916076</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>ŻRM-ROOVEE PARK KUNICE HUTA</name>
+  <description>name=ŻRM-ROOVEE PARK KUNICE HUTA
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>15.162448991,51.591454704</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>ŻRM-ROOVEE PARK RYNEK</name>
+  <description>name=ŻRM-ROOVEE PARK RYNEK
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>15.143069576,51.638670601</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>ŻRM-ROOVEE PARK STADION KUNICE</name>
+  <description>name=ŻRM-ROOVEE PARK STADION KUNICE
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>15.181498324,51.607158917</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>ŻRM-ROOVEE PARK WODNIK</name>
+  <description>name=ŻRM-ROOVEE PARK WODNIK
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>15.121543549,51.642440984</coordinates>
+  </Point>
+</Placemark>
+</Document>
+</kml>

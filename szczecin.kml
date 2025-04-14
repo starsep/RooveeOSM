@@ -22,6 +22,26 @@ operator:wikidata=Q60860205</description>
   </Point>
 </Placemark>
 <Placemark>
+  <name>26. Dworzec Główny PKP</name>
+  <description>name=26. Dworzec Główny PKP
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>14.552608690725473,53.41929191038793</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>301. Warzymice</name>
+  <description>name=301. Warzymice
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>14.48552972233081,53.390269735177384</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
   <name>64. Trasa Zamkowa</name>
   <description>name=64. Trasa Zamkowa
 amenity=bicycle_rental
@@ -108,7 +128,7 @@ amenity=bicycle_rental
 operator=Roovee
 operator:wikidata=Q60860205</description>
   <Point>
-    <coordinates>14.56013044295438,53.42453585254547</coordinates>
+    <coordinates>14.56027260003217,53.424631915427916</coordinates>
   </Point>
 </Placemark>
 <Placemark>
