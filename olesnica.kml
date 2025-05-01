@@ -32,16 +32,6 @@ operator:wikidata=Q60860205</description>
   </Point>
 </Placemark>
 <Placemark>
-  <name>Rynek - Ratusz</name>
-  <description>name=Rynek - Ratusz
-amenity=bicycle_rental
-operator=Roovee
-operator:wikidata=Q60860205</description>
-  <Point>
-    <coordinates>17.37976393140798,51.20938496423983</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
   <name>Sp. nr 8 - Parking</name>
   <description>name=Sp. nr 8 - Parking
 amenity=bicycle_rental
