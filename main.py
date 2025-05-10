@@ -7,7 +7,7 @@ from slugify import slugify
 
 from roovee_comparator import run
 from roovee_parser import Network, RooveeParser
-from starsep_utils.healthchecks import healthchecks
+from starsep_utils import healthchecks
 
 networks = [
     Network(tenant="bikes", name="Szczecin"),
