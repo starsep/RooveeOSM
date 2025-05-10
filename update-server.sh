@@ -3,7 +3,7 @@ set -eu
 date=$(/bin/date '+%Y%m%d')
 git clone https://$GITHUB_USERNAME:$GITHUB_TOKEN@github.com/starsep/RooveeOSM --depth 1 --branch gh-pages output
 rm -rf cache/overpass
-python main.py
+uv run python main.py
 cd output
 git config user.name "RooveeOSMBot"
 git config user.email "<>"
