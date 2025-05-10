@@ -7,6 +7,7 @@ from slugify import slugify
 
 from roovee_comparator import run
 from roovee_parser import Network, RooveeParser
+from starsep_utils.healthchecks import healthchecks
 
 networks = [
     Network(tenant="bikes", name="Szczecin"),
@@ -39,6 +40,7 @@ networks = [
 
 # TODO: GeoJSON output
 if __name__ == "__main__":
+    healthchecks("/start")
     templatesDirectory = Path("templates")
     libsDirectory = Path("libs")
     staticDirectory = Path("static")
@@ -65,3 +67,4 @@ if __name__ == "__main__":
     shutil.copy(templatesDirectory / "index.js", outputDirectory / "index.js")
     shutil.copy(libsDirectory / "sorttable.js", outputDirectory / "sorttable.js")
     shutil.copy(staticDirectory / "josm.svg", outputDirectory / "josm.svg")
+    healthchecks()

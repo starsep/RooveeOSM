@@ -45,6 +45,15 @@ wheels = [
 ]
 
 [[package]]
+name = "funcy"
+version = "2.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/70/b8/c6081521ff70afdff55cd9512b2220bbf4fa88804dae51d1b57b4b58ef32/funcy-2.0.tar.gz", hash = "sha256:3963315d59d41c6f30c04bc910e10ab50a3ac4a225868bfa96feed133df075cb", size = 537931 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/d5/08/c2409cb01d5368dcfedcbaffa7d044cc8957d57a9d0855244a5eb4709d30/funcy-2.0-py2.py3-none-any.whl", hash = "sha256:53df23c8bb1651b12f095df764bfb057935d49537a56de211b098f4c79614bb0", size = 30891 },
+]
+
+[[package]]
 name = "geojson"
 version = "3.2.0"
 source = { registry = "https://pypi.org/simple" }
@@ -201,6 +210,7 @@ dependencies = [
     { name = "jinja2" },
     { name = "overpy" },
     { name = "python-slugify" },
+    { name = "starsep-utils" },
 ]
 
 [package.metadata]
@@ -211,6 +221,7 @@ requires-dist = [
     { name = "jinja2", specifier = ">=3.1.6" },
     { name = "overpy", specifier = ">=0.7" },
     { name = "python-slugify", specifier = ">=8.0.4" },
+    { name = "starsep-utils", specifier = ">=0.9.0" },
 ]
 
 [[package]]
@@ -220,6 +231,19 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/a2/87/a6771e1546d97e7e041b6ae58d80074f81b7d5121207425c964ddf5cfdbd/sniffio-1.3.1.tar.gz", hash = "sha256:f4324edc670a0f49750a81b895f35c3adb843cca46f0530f79fc1babb23789dc", size = 20372 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/e9/44/75a9c9421471a6c4805dbf2356f7c181a29c1879239abab1ea2cc8f38b40/sniffio-1.3.1-py3-none-any.whl", hash = "sha256:2f6da418d1f1e0fddd844478f41680e794e6051915791a034ff65e5f100525a2", size = 10235 },
+]
+
+[[package]]
+name = "starsep-utils"
+version = "0.9.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "funcy" },
+    { name = "httpx" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/c6/e2/46d5d921a00244148d7ee9b9bf61437d69eced6197899cc6067c66dba94e/starsep_utils-0.9.0.tar.gz", hash = "sha256:9b693a8295980e441d62a8dd2c7bd02606b7de2e404e93d986298cd4e3a8848b", size = 16830 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/01/59/7fcbf17449177951950af05f6255de845904d8bec51c225f1971ce4db406/starsep_utils-0.9.0-py3-none-any.whl", hash = "sha256:72cb8db9c46b367b5d099b0163deccb49483e153b32ffad966dc2db602eb23cd", size = 20446 },
 ]
 
 [[package]]
