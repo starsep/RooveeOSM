@@ -104,7 +104,7 @@ class RooveeComparator:
                     distance=dist,
                     place=place,
                     osm=matchedElement,
-                    osmType="way" if type(matchedElement) == Way else "node",
+                    osmType="way" if type(matchedElement) is Way else "node",
                 )
             )
         self.matches = data

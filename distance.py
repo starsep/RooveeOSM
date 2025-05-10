@@ -15,10 +15,10 @@ class GeoPoint:
 
     @staticmethod
     def fromElement(element: Element, overpassParser: OverpassParser):
-        if type(element) == Node:
+        if type(element) is Node:
             node = cast(Node, element)
             return GeoPoint(lat=node.lat, lon=node.lon)
-        if type(element) == Way:
+        if type(element) is Way:
             way = cast(Way, element)
             nodes = [node for node in overpassParser.ways[way.id].nodes]
             centerLat = sum(map(lambda x: x.lat, nodes)) / len(nodes)
