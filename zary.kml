@@ -22,16 +22,6 @@ operator:wikidata=Q60860205</description>
   </Point>
 </Placemark>
 <Placemark>
-  <name>ŻRM-ROOVEE PARK RYNEK</name>
-  <description>name=ŻRM-ROOVEE PARK RYNEK
-amenity=bicycle_rental
-operator=Roovee
-operator:wikidata=Q60860205</description>
-  <Point>
-    <coordinates>15.143069576,51.638670601</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
   <name>ŻRM-ROOVEE PARK STADION KUNICE</name>
   <description>name=ŻRM-ROOVEE PARK STADION KUNICE
 amenity=bicycle_rental
