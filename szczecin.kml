@@ -182,6 +182,16 @@ operator:wikidata=Q60860205</description>
   </Point>
 </Placemark>
 <Placemark>
+  <name>99. Dembowskiego</name>
+  <description>name=99. Dembowskiego
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>14.55998008417707,53.446743525101105</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
   <name>99. Wirtualna Pomorzany</name>
   <description>name=99. Wirtualna Pomorzany
 amenity=bicycle_rental
