@@ -2,6 +2,16 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document>
 <Placemark>
+  <name>Dom Kultury Zameczek</name>
+  <description>name=Dom Kultury Zameczek
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>20.63139397987291,50.86413015197455</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
   <name>DS Smith Malików</name>
   <description>name=DS Smith Malików
 amenity=bicycle_rental
@@ -9,6 +19,26 @@ operator=Roovee
 operator:wikidata=Q60860205</description>
   <Point>
     <coordinates>20.576996568748108,50.89643925862223</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Muszla Koncertowa – Park Miejski</name>
+  <description>name=Muszla Koncertowa – Park Miejski
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>20.62432849173931,50.86830522758953</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Plac Artystów</name>
+  <description>name=Plac Artystów
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>20.62757538218062,50.871105055265204</coordinates>
   </Point>
 </Placemark>
 </Document>
