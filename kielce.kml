@@ -2,16 +2,6 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document>
 <Placemark>
-  <name>Dom Kultury Zameczek</name>
-  <description>name=Dom Kultury Zameczek
-amenity=bicycle_rental
-operator=Roovee
-operator:wikidata=Q60860205</description>
-  <Point>
-    <coordinates>20.63139397987291,50.86413015197455</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
   <name>DS Smith Malików</name>
   <description>name=DS Smith Malików
 amenity=bicycle_rental
@@ -39,6 +29,16 @@ operator=Roovee
 operator:wikidata=Q60860205</description>
   <Point>
     <coordinates>20.62757538218062,50.871105055265204</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Strefa Relaksu</name>
+  <description>name=Strefa Relaksu
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>20.62960012380542,50.87914309620439</coordinates>
   </Point>
 </Placemark>
 </Document>
