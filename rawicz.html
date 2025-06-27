@@ -1,16 +1,221 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
     <meta charset="UTF-8">
+    <title>Rawicz - RooveeOSM</title>
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+    <script src="sorttable.js" integrity="sha256-n3657FhpVO0BrpRmnXeQho7yfKvMVBh0QcoYkQr2O8w="></script>
 </head>
+<style>
+    .red {
+        color: red;
+    }
 
+    .svg {
+        width: 20px;
+        height: 20px;
+    }
+</style>
 <body>
-    <h2>Received empty dataset...sorry :(</h2>
-    <br>Add some data in this vicinity, then look here later.
-    <br>
-    <br>
-    <i>Last checked: Fri, 27 Jun @ 19:03:19</i>
+    <i>Updated: Fri, 27 Jun @ 20:02:40</i> <br/>
+    <span>
+        Roovee locations (4) where OpenStreetMap match has distance &gt; 100 metres.
+        <br/>
+        <a href="map-rawicz.html">Map</a>
+        <a href="rawicz.kml">KML</a>
+        <a href="rawicz.csv">CSV in SCEE format</a>
+    </span>
+    <table class="sortable">
+        <thead>
+            <tr>
+                <th>Roovee location</th>
+                <th>OSM id (closest match)</th>
+                <th>Distance (in meters)</th>
+                <th>Name Roovee</th>
+                <th>Name OSM</th>
+                <th>Network</th>
+                <th>Operator</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+            <tr>
+                <td>
+                    <a href="https://osm.org/?mlat=51.629035607322585&mlon=16.906559511762083#map=19/51.629035607322585/16.906559511762083">OSM</a>
+                    <a target="hiddenIframe" href="http://localhost:8111/load_and_zoom?top=51.629035607322585&bottom=51.629035607322585&left=16.906559511762083&right=16.906559511762083">
+                        <img src="./josm.svg" class="svg" alt="josm">
+                    </a>
+                </td>
+                <td>
+                    <a href="https://osm.org/way/1410121227">1410121227</a>
+                    <a target="hiddenIframe" href="http://localhost:8111/load_object?objects=w1410121227">
+                        <img src="./josm.svg" class="svg" alt="josm">
+                    </a>
+                </td>
+                <td class="red"> 10494
+                </td>
+                <td>
+                    Osiedle Sarnowa
+                </td>
+                <td class="red" >
+                    Stacja Rowerowa nr 3 Pakosław
+                </td>
+                <td class="red" >
+                    NONE
+                </td>
+                <td class="red" >
+                    NONE
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <a href="https://osm.org/?mlat=51.61039138874931&mlon=17.09990916791714#map=19/51.61039138874931/17.09990916791714">OSM</a>
+                    <a target="hiddenIframe" href="http://localhost:8111/load_and_zoom?top=51.61039138874931&bottom=51.61039138874931&left=17.09990916791714&right=17.09990916791714">
+                        <img src="./josm.svg" class="svg" alt="josm">
+                    </a>
+                </td>
+                <td>
+                    <a href="https://osm.org/way/1410121241">1410121241</a>
+                    <a target="hiddenIframe" href="http://localhost:8111/load_object?objects=w1410121241">
+                        <img src="./josm.svg" class="svg" alt="josm">
+                    </a>
+                </td>
+                <td > 6
+                </td>
+                <td>
+                    Osiek (przy Sali Wiejskiej)
+                </td>
+                <td class="red" >
+                    Stacja Rowerowa nr 4 Osiek
+                </td>
+                <td class="red" >
+                    NONE
+                </td>
+                <td class="red" >
+                    NONE
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <a href="https://osm.org/?mlat=51.614401935339394&mlon=17.056703134393576#map=19/51.614401935339394/17.056703134393576">OSM</a>
+                    <a target="hiddenIframe" href="http://localhost:8111/load_and_zoom?top=51.614401935339394&bottom=51.614401935339394&left=17.056703134393576&right=17.056703134393576">
+                        <img src="./josm.svg" class="svg" alt="josm">
+                    </a>
+                </td>
+                <td>
+                    <a href="https://osm.org/way/1410121227">1410121227</a>
+                    <a target="hiddenIframe" href="http://localhost:8111/load_object?objects=w1410121227">
+                        <img src="./josm.svg" class="svg" alt="josm">
+                    </a>
+                </td>
+                <td > 3
+                </td>
+                <td>
+                    Pakosław (ul. Kolejowa przy przystanku autobusowym)
+                </td>
+                <td class="red" >
+                    Stacja Rowerowa nr 3 Pakosław
+                </td>
+                <td class="red" >
+                    NONE
+                </td>
+                <td class="red" >
+                    NONE
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <a href="https://osm.org/?mlat=51.60944253646749&mlon=16.840514322826017#map=19/51.60944253646749/16.840514322826017">OSM</a>
+                    <a target="hiddenIframe" href="http://localhost:8111/load_and_zoom?top=51.60944253646749&bottom=51.60944253646749&left=16.840514322826017&right=16.840514322826017">
+                        <img src="./josm.svg" class="svg" alt="josm">
+                    </a>
+                </td>
+                <td>
+                    <a href="https://osm.org/way/1410121227">1410121227</a>
+                    <a target="hiddenIframe" href="http://localhost:8111/load_object?objects=w1410121227">
+                        <img src="./josm.svg" class="svg" alt="josm">
+                    </a>
+                </td>
+                <td class="red"> 14941
+                </td>
+                <td>
+                    Rawicz ul. Dworcowa/11 Listopada (parking)
+                </td>
+                <td class="red" >
+                    Stacja Rowerowa nr 3 Pakosław
+                </td>
+                <td class="red" >
+                    NONE
+                </td>
+                <td class="red" >
+                    NONE
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <a href="https://osm.org/?mlat=51.6065909442346&mlon=16.964550389614907#map=19/51.6065909442346/16.964550389614907">OSM</a>
+                    <a target="hiddenIframe" href="http://localhost:8111/load_and_zoom?top=51.6065909442346&bottom=51.6065909442346&left=16.964550389614907&right=16.964550389614907">
+                        <img src="./josm.svg" class="svg" alt="josm">
+                    </a>
+                </td>
+                <td>
+                    <a href="https://osm.org/way/1410121227">1410121227</a>
+                    <a target="hiddenIframe" href="http://localhost:8111/load_object?objects=w1410121227">
+                        <img src="./josm.svg" class="svg" alt="josm">
+                    </a>
+                </td>
+                <td class="red"> 6422
+                </td>
+                <td>
+                    Słupia Kapitulna (przy przystanku autobusowym)
+                </td>
+                <td class="red" >
+                    Stacja Rowerowa nr 3 Pakosław
+                </td>
+                <td class="red" >
+                    NONE
+                </td>
+                <td class="red" >
+                    NONE
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <a href="https://osm.org/?mlat=51.61408957105315&mlon=16.8666422627329#map=19/51.61408957105315/16.8666422627329">OSM</a>
+                    <a target="hiddenIframe" href="http://localhost:8111/load_and_zoom?top=51.61408957105315&bottom=51.61408957105315&left=16.8666422627329&right=16.8666422627329">
+                        <img src="./josm.svg" class="svg" alt="josm">
+                    </a>
+                </td>
+                <td>
+                    <a href="https://osm.org/way/1410121227">1410121227</a>
+                    <a target="hiddenIframe" href="http://localhost:8111/load_object?objects=w1410121227">
+                        <img src="./josm.svg" class="svg" alt="josm">
+                    </a>
+                </td>
+                <td class="red"> 13125
+                </td>
+                <td>
+                    ul. Sarnowska
+                </td>
+                <td class="red" >
+                    Stacja Rowerowa nr 3 Pakosław
+                </td>
+                <td class="red" >
+                    NONE
+                </td>
+                <td class="red" >
+                    NONE
+                </td>
+            </tr>
+            
+        </tbody>
+    </table>
+    <i>Created using <a href="https://github.com/starsep/RooveeOSM">starsep/RooveeOSM</a></i>
+    <iframe style="display:none;" id="hiddenIframe" name="hiddenIframe"></iframe>
 </body>
-
 </html>
