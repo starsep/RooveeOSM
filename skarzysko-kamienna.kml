@@ -11,5 +11,15 @@ operator:wikidata=Q60860205</description>
     <coordinates>20.858359896514983,51.08455378712982</coordinates>
   </Point>
 </Placemark>
+<Placemark>
+  <name>Skatepark</name>
+  <description>name=Skatepark
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>20.854405641247638,51.099843819660386</coordinates>
+  </Point>
+</Placemark>
 </Document>
 </kml>
