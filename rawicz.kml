@@ -2,6 +2,26 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document>
 <Placemark>
+  <name>Chojno</name>
+  <description>name=Chojno
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>17.0155609528867,51.62459093213295</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Dębno Polskie</name>
+  <description>name=Dębno Polskie
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>16.88548423406531,51.58379968305082</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
   <name>Osiedle Sarnowa</name>
   <description>name=Osiedle Sarnowa
 amenity=bicycle_rental
@@ -29,6 +49,26 @@ operator=Roovee
 operator:wikidata=Q60860205</description>
   <Point>
     <coordinates>16.964550389614907,51.6065909442346</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>ul. Poznańska w Rawiczu</name>
+  <description>name=ul. Poznańska w Rawiczu
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>16.860166876141967,51.617599384278904</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>ul. Rynek w Rawiczu</name>
+  <description>name=ul. Rynek w Rawiczu
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>16.858552200222316,51.608603262919246</coordinates>
   </Point>
 </Placemark>
 <Placemark>
