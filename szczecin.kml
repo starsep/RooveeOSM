@@ -172,6 +172,16 @@ operator:wikidata=Q60860205</description>
   </Point>
 </Placemark>
 <Placemark>
+  <name>96. Złotowska</name>
+  <description>name=96. Złotowska
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>14.539213040483578,53.46536739678082</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
   <name>99. Dembowskiego</name>
   <description>name=99. Dembowskiego
 amenity=bicycle_rental
