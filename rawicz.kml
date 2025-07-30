@@ -8,7 +8,7 @@ amenity=bicycle_rental
 operator=Roovee
 operator:wikidata=Q60860205</description>
   <Point>
-    <coordinates>17.0225132386533,51.62327211745619</coordinates>
+    <coordinates>17.022485075458643,51.62328627160509</coordinates>
   </Point>
 </Placemark>
 <Placemark>
@@ -18,7 +18,7 @@ amenity=bicycle_rental
 operator=Roovee
 operator:wikidata=Q60860205</description>
   <Point>
-    <coordinates>16.8781886255448,51.586212917240395</coordinates>
+    <coordinates>16.87830530163695,51.586084592405875</coordinates>
   </Point>
 </Placemark>
 <Placemark>
@@ -58,7 +58,7 @@ amenity=bicycle_rental
 operator=Roovee
 operator:wikidata=Q60860205</description>
   <Point>
-    <coordinates>16.860166876141967,51.617599384278904</coordinates>
+    <coordinates>16.860089092080536,51.61763685581797</coordinates>
   </Point>
 </Placemark>
 <Placemark>
