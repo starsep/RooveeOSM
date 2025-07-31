@@ -192,6 +192,16 @@ operator:wikidata=Q60860205</description>
   </Point>
 </Placemark>
 <Placemark>
+  <name>98. Miłosza</name>
+  <description>name=98. Miłosza
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>14.547647488125293,53.47695394122884</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
   <name>99. Dembowskiego</name>
   <description>name=99. Dembowskiego
 amenity=bicycle_rental
