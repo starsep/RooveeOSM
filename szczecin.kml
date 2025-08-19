@@ -82,16 +82,6 @@ operator:wikidata=Q60860205</description>
   </Point>
 </Placemark>
 <Placemark>
-  <name>83. Plac Lotników </name>
-  <description>name=83. Plac Lotników 
-amenity=bicycle_rental
-operator=Roovee
-operator:wikidata=Q60860205</description>
-  <Point>
-    <coordinates>14.550839479606624,53.430613769903</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
   <name>84. Osiedle za Sterem</name>
   <description>name=84. Osiedle za Sterem
 amenity=bicycle_rental

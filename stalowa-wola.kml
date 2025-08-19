@@ -22,6 +22,16 @@ operator:wikidata=Q60860205</description>
   </Point>
 </Placemark>
 <Placemark>
+  <name>Dmowskiego 11</name>
+  <description>name=Dmowskiego 11
+amenity=bicycle_rental
+operator=Roovee
+operator:wikidata=Q60860205</description>
+  <Point>
+    <coordinates>22.05210593011914,50.56791727473636</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
   <name>Park Zimna Woda</name>
   <description>name=Park Zimna Woda
 amenity=bicycle_rental
