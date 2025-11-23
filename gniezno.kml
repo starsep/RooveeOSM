@@ -302,16 +302,6 @@ operator:wikidata=Q60860205</description>
   </Point>
 </Placemark>
 <Placemark>
-  <name>Strumykowa</name>
-  <description>name=Strumykowa
-amenity=bicycle_rental
-operator=Roovee
-operator:wikidata=Q60860205</description>
-  <Point>
-    <coordinates>17.58671016449503,52.53050559124782</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
   <name>Warszawska</name>
   <description>name=Warszawska
 amenity=bicycle_rental
