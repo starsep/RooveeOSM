@@ -232,16 +232,6 @@ operator:wikidata=Q60860205</description>
   </Point>
 </Placemark>
 <Placemark>
-  <name>Powstańców Wlkp</name>
-  <description>name=Powstańców Wlkp
-amenity=bicycle_rental
-operator=Roovee
-operator:wikidata=Q60860205</description>
-  <Point>
-    <coordinates>17.588240947850426,52.53882459307503</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
   <name>Pustachowska</name>
   <description>name=Pustachowska
 amenity=bicycle_rental
